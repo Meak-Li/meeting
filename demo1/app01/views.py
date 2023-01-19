@@ -3,8 +3,8 @@ from django.contrib.auth import authenticate, login, logout
 from django.http import JsonResponse
 from geetest import GeetestLib
 from django.contrib.auth.decorators import login_required
-from app01 import models
-from app01 import forms
+from ..app01 import models
+from ..app01 import forms
 import json
 import datetime
 # Create your views here.

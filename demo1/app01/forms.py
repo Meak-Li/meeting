@@ -3,7 +3,7 @@ BBS用到的form组件
 """
 from django import forms
 from django.core.exceptions import ValidationError
-from app01 import models
+from ..app01 import models
 
 
 # 定义注册类
